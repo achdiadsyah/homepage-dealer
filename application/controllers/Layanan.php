@@ -1,0 +1,46 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Layanan extends CI_Controller {
+
+	public function ahass()
+	{
+	    
+		$data = [
+			'title'         => 'AHASS',
+			'c_active'      => 'ahass'
+		];
+		$this->template->views('layanan/ahass', $data);
+	}
+	
+	public function marketing()
+	{
+	    
+		$data = [
+			'title'         => 'Marketing',
+			'c_active'      => 'marketing'
+		];
+		$this->template->views('layanan/marketing', $data);
+	}
+	
+	public function bookingservis()
+	{
+	    
+		$data = [
+			'title'         => 'Booking Servis',
+			'c_active'      => 'booking-servis'
+		];
+		$this->template->views('layanan/bookingservis', $data);
+	}
+	
+	public function serviskunjung()
+	{
+	    
+		$data = [
+			'title'         => 'Layanan Servis Kunjung',
+			'c_active'      => 'servis-kunjung'
+		];
+		$this->template->views('layanan/serviskunjung', $data);
+	}
+	
+}
