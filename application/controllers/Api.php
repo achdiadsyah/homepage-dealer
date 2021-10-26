@@ -55,17 +55,4 @@ class Api extends CI_Controller {
             exit('You are not authorized to direct script access');
         }
     }
-    
-    public function getfromcdn(){
-        
-        // $nomesin = $this->input->get('nomesin');
-        // $suffix_norangka = $this->input->get('suffix_norangka');
-        
-        $nomesin = 'JFV1E 1698283';
-        $suffix_norangka = '0';
-        
-        $url = 'https://www.cdn.co.id/portalh23/klaim/search_dtl_nomesin.inc.php?nomesin='.$nomesin.'&suffix_norangka='.$suffix_norangka;
-        echo $this->astra->call_capella($url);
-        
-    }
 }
