@@ -8,6 +8,9 @@ class Api extends CI_Controller {
 
 	public function getslider()
 	{
+		header('Access-Control-Allow-Origin: *');
+		header('Access-Control-Allow-Methods: GET, POST');
+		header("Access-Control-Allow-Headers: X-Requested-With");
 	    if($this->input->is_ajax_request()){
     		$url = 'https://www.astra-honda.com/api/v1/page/type/home';
     		echo $this->astra->call($url);

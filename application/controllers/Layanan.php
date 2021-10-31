@@ -28,7 +28,8 @@ class Layanan extends CI_Controller {
 	    
 		$data = [
 			'title'         => 'Booking Servis',
-			'c_active'      => 'booking-servis'
+			'c_active'      => 'booking-servis',
+			'costum_js'		=> 'layanan/js-booking'
 		];
 		$this->template->views('layanan/bookingservis', $data);
 	}
