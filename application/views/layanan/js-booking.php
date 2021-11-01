@@ -6,7 +6,7 @@
         {
             $('#form-booking-servis').validate({
             highlight: function (element) {
-                mySwalalert(element . 'Tidak boleh kosong', 'info');
+                mySwalalert(element + 'Tidak boleh kosong', 'info');
             }
             });
             if($('#form-booking-servis').valid()){
