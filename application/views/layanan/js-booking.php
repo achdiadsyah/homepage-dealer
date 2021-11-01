@@ -4,11 +4,7 @@
     
         function save()
         {
-            $('#form-booking-servis').validate({
-            highlight: function (element) {
-                mySwalalert(element + 'Tidak boleh kosong', 'info');
-            }
-            });
+            
             if($('#form-booking-servis').valid()){
                 $('#btnSave').attr('disabled',true);
                 $('#btnSave').html('<i class="fas fa-sync fa-spin"></i> Sending...');
