@@ -68,9 +68,8 @@
                                     <input type="checkbox" class="form-check-input" id="check_data">
                                     <label class="form-check-label" for="check_data">Data Yang saya masukkan adalah benar</label>
                                 </div>
-                                
-                                <button type="submit" class="btn btn-danger">Submit</button>
                             </form>
+                            <button class="btn btn-danger" id="btnSave" onClick="save()">Submit</button>
                         </div>
                     </div>
                 </div>

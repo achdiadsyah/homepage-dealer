@@ -30,5 +30,8 @@
     
         <!-- Template Main CSS File -->
         <link href="<?= base_url(); ?>assets/css/style.css" rel="stylesheet">
+
+        <!-- SweetAlert CSS -->
+        <link rel="stylesheet" href="<?= base_url(); ?>assets/vendor/sweetalert2/sweetalert2.min.css">
     
     </head>

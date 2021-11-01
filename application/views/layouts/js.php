@@ -9,3 +9,6 @@
     
         <!-- ======= Main Template JS ======= -->
         <script src="<?= base_url(); ?>assets/js/main.js"></script>
+
+        <!-- SweetAlert -->
+        <script src="<?= base_url(); ?>assets/vendor/sweetalert2/sweetalert2.min.js"></script>
