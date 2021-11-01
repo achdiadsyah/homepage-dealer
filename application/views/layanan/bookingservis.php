@@ -63,11 +63,6 @@
                                     <label for="keluhan">Sampaikan Keluhan</label>
                                     <textarea class="form-control" id="keluhan" name="keluhan" rows="4"></textarea>
                                 </div>
-                                
-                                <div class="form-check pb-2">
-                                    <input type="checkbox" class="form-check-input" id="check_data" required>
-                                    <label class="form-check-label" for="check_data">Data Yang saya masukkan adalah benar</label>
-                                </div>
                             </form>
                             <button class="btn btn-danger" id="btnSave" onClick="save()">Submit</button>
                         </div>
