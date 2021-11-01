@@ -21,11 +21,15 @@
                         mySwalalert('Berhasil Mengirim Data', 'success');
                         $('#btnSave').html('Submit');
                         $('#btnSave').attr('disabled',false);
+                    } else {
+                        mySwalalert('Gagal Mengirim Data', 'danger');
+                        $('#btnSave').html('Submit');
+                        $('#btnSave').attr('disabled',false);
                     }
                 },
                 error: function (jqXHR, textStatus, errorThrown)
                 {
-                    mySwalalert('Gagal Menyimapan Data', 'danger');
+                    mySwalalert('Gagal Mengirim Data', 'danger');
                     $('#btnSave').html('Submit');
                     $('#btnSave').attr('disabled',false);
                 }
