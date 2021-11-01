@@ -65,7 +65,7 @@
                                 </div>
                                 
                                 <div class="form-check pb-2">
-                                    <input type="checkbox" class="form-check-input" id="check_data">
+                                    <input type="checkbox" class="form-check-input" id="check_data" required>
                                     <label class="form-check-label" for="check_data">Data Yang saya masukkan adalah benar</label>
                                 </div>
                             </form>
