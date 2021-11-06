@@ -24,6 +24,7 @@
                             mySwalalert('Berhasil Mengirim Data', 'success');
                             $('#btnSave').html('Submit');
                             $('#btnSave').attr('disabled',false);
+                            $('#form-booking-servis')[0].reset();
 
                         } else if(data.status = false){
 
