@@ -272,7 +272,7 @@
                         </div>
     
                     <div class="col-lg-6">
-                        <form action="<?= base_url(); ?>kritiksaran" method="post" role="form" class="form">       
+                        <form action="#" method="post" role="form" class="form" id="form-kritiksaran">       
                             <input type="hidden" name="<?=$this->security->get_csrf_token_name();?>" value="<?=$this->security->get_csrf_hash();?>" style="display: none">                 
                             <h3 class="card-title">Kritik dan Saran</h3>
                             <div class="form-row">
@@ -286,8 +286,8 @@
                             <div class="form-group">
                                 <textarea class="form-control" name="message" rows="7" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-danger btn-sm"><i class="icofont-telegram"></i> Kirim Pesan</button>
                         </form>
+                            <button type="submit" class="btn btn-danger btn-sm" id="btnSave" onClick="sendKritikSaran()"><i class="icofont-telegram"></i> Kirim Pesan</button>
                     </div>
     
                     </div>
