@@ -9,7 +9,7 @@
                 $('#btnSave').attr('disabled',true);
                 $('#btnSave').html('<i class="fas fa-sync fa-spin"></i> Sending...');
                 
-                var url = "https://app.hondalambarona.id/api/bookingservis";
+                var url = "https://app.lambaronasakti.com/api/bookingservis";
                 
                 // ajax adding data to database
                 $.ajax({

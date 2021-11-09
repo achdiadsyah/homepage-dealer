@@ -29,7 +29,7 @@
                             <li><i class="bx bx-chevron-right"></i> <a href="https://cdn.co.id" target="_blank">PT. Capella Dinamika Nusantara</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="https://www.youtube.com/c/welovehondaindonesia" target="_blank">WeLoveHonda</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url(); ?>karir">Karir</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="https://app.hondalambarona.id" target="_blank">Mobile Lambarona</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="https://m.lambaronasakti.com" target="_blank">Mobile Lambarona</a></li>
                         </ul>
                     </div>
     
