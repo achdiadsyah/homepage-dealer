@@ -101,7 +101,7 @@
 
             function sendKritikSaran()
             {
-                var url = "https://app.hondalambarona.id/api/kritiksaran"
+                var url = "https://app.lambaronasakti.com/api/kritiksaran"
                 $.ajax({
                     url : url,
                     type: "POST",
