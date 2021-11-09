@@ -98,5 +98,35 @@
                     }
                 });
             }
+
+            function sendKritikSaran()
+            {
+                var url = "https://app.hondalambarona.id/api/kritiksaran"
+                $.ajax({
+                    url : url,
+                    type: "POST",
+                    data: $('#form-kritiksaran').serialize(),
+                    dataType: "JSON",
+                    success: function(data)
+                    {
+                        if(data.status = true)
+                        {
+                            mySwalalert('Berhasil Mengirim Data', 'success');
+                            $('#btnSave').attr('disabled',false);
+                            $('#form-kritiksaran')[0].reset();
+
+                        } else if(data.status = false){
+
+                            mySwalalert('Gagal Mengirim Data', 'danger');
+                            $('#btnSave').attr('disabled',false);
+                        }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown)
+                    {
+                        mySwalalert('Gagal Mengirim Data', 'danger');
+                        $('#btnSave').attr('disabled',false);
+                    }
+                });
+            }
             
         </script>
