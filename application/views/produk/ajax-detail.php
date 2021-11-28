@@ -136,6 +136,23 @@
                         console.log('Error:', data);
                     }
                 });
+
+
+                // Get Harga
+                $.ajax({
+                type: "GET",
+                async: true,
+                url: 'https://app.lambaronasakti.com/api/findHarga/<?= $slug; ?>',
+                dataType: 'JSON',
+                success: function (data){
+                    
+                    console.log(data);
+                    
+                },
+                    error: function (data) {
+                        console.log('Error:', data);
+                    }
+                });
                 
             });
             
