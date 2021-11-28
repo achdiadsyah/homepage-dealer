@@ -89,9 +89,7 @@
                                         </tr>
                                     </thead>
                                     <tbody id="price-otr">
-                                        <tr>
-                                            <td colspan="2"><p class="center">Data Not Found</p></td>
-                                        </tr>
+                                        
                                     </tbody>
                                 </table>
                             </div>
