@@ -146,12 +146,10 @@
                 dataType: 'JSON',
                 success: function (data){
                     
-                    console.log(data);
-
                     var lenX = Object.keys(data.result).length;
-                    var itemOTR = '<tr><td colspan="2"><p class="center">Data Not Found</p></td><tr>';
+                    var itemOTR = '';
                     for (var i = 0; i < lenX; i++) {
-                        itemOTR += '<tr><td>'+data.result[i].nama+'</td><td>'+data.result[i].ofr+'</td></tr>';
+                        itemOTR += '<tr><td>'+data.result[i].nama+'</td><td>'+data.result[i].otr+'</td></tr>';
                     }
                     $("#price-otr").html(itemOTR);
                     
