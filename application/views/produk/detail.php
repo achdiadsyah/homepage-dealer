@@ -80,7 +80,6 @@
                                     <span>Harga OTR</span>
                                     <h2>Harga OTR</h2>
                                 </div>
-                                <span>Update : September 2021</span>
                                 <table width="100%" class="table table-striped">
                                     <thead>
                                         <tr>
