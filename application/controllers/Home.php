@@ -7,7 +7,7 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		$data = [
-			'title'         => 'Beranda',
+			'title'         => 'Dealer Honda',
 			'c_active'      => 'home',
 			'costum_js'     => 'beranda/ajax'
 		];
