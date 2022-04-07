@@ -12,3 +12,10 @@
 
         <!-- SweetAlert -->
         <script src="<?= base_url(); ?>assets/vendor/sweetalert2/sweetalert2.min.js"></script>
+
+        <!-- Mobile Redirect -->
+        <script type="text/javascript">
+        if (screen.width <= 720) {
+        window.location = "https://m.lambaronasakti.com/";
+        }
+        </script>
